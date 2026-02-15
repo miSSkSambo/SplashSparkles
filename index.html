@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Splash Sparkles | Professional Cleaning Services</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f2a44;
+    color:white;
+    line-height:1.6;
+}
+
+/* NAVIGATION */
+nav{
+    background:#081827;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav h2{
+    color:#18d1b6;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#18d1b6;
+}
+
+/* HERO */
+header{
+    text-align:center;
+    padding:70px 20px;
+    background:#0c2238;
+}
+
+header img{
+    width:140px;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:40px;
+    color:#18d1b6;
+}
+
+header p{
+    margin-bottom:25px;
+}
+
+/* HERO HEADER */
+header{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(rgba(12,34,56,0.9), rgba(12,34,56,0.9)),
+               url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1400&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+/* BUTTONS */
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    margin:8px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-primary{
+    background:#18d1b6;
+    color:#0c2238;
+}
+
+.btn-outline{
+    border:2px solid #18d1b6;
+    color:#18d1b6;
+}
+
+.btn-whatsapp{
+    background:#25D366;
+    color:white;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 6px 20px rgba(0,0,0,0.4);
+}
+
+/* SECTIONS */
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:40px;
+    color:#18d1b6;
+}
+
+/* CARDS */
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#133553;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#18d1b6;
+    margin-bottom:10px;
+}
+
+.price{
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin-bottom:6px;
+}
+
+/* SINGLE BLOCK */
+.single-block{
+    background:#133553;
+    padding:40px;
+    border-radius:15px;
+    max-width:700px;
+    margin:0 auto;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.4);
+}
+
+.single-block p{
+    margin:10px 0;
+}
+
+.single-block strong{
+    color:#18d1b6;
+}
+
+/* CONTACT */
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:8px 0;
+}
+
+/* FLOATING WHATSAPP */
+.floating-whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:25px;
+    background:#081827;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Splash Sparkles</h2>
+    <div>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header>
+    <img src="https://uploads.onecompiler.io/43v9q6euh/44d6rrd4h/WhatsApp%20Image%202026-02-15%20at%2019.57.28.jpeg" alt="Logo">
+    <h1>Professional Cleaning Services</h1>
+    <p>Car Wash • Sofa Cleaning • Carpet Cleaning</p>
+
+    <a href="tel:+27795971891" class="btn btn-primary">Call Now</a>
+    <a href="mailto:SplashSparkleswash@gmail.com" class="btn btn-outline">Email Us</a>
+    <a href="https://wa.me/27795971891" target="_blank" class="btn btn-whatsapp">WhatsApp</a>
+</header>
+
+<!-- BASIC WASH -->
+<section id="services">
+    <h2 class="section-title">Basic Wash Packages</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Basic Wash</h3>
+            <div class="price">R70</div>
+            <ul>
+                <li>Handwash</li>
+                <li>Vacuum & dust interior</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Basic 2</h3>
+            <div class="price">R110</div>
+            <ul>
+                <li>Handwash</li>
+                <li>Vacuum & dust interior</li>
+                <li>Polish</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Basic 3</h3>
+            <div class="price">R350</div>
+            <ul>
+                <li>Full interior & exterior</li>
+                <li>Seat & headliner wash</li>
+                <li>Underbody pressure wash</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PREMIUM VEHICLE -->
+<section>
+    <h2 class="section-title">Premium Vehicle Packages</h2>
+    <div class="single-block">
+        <p><strong>Valet Wash (Small Cars):</strong> R650</p>
+        <p><strong>SUV:</strong> R800</p>
+        <p><strong>7 Seater:</strong> R900</p>
+        <p><strong>Van (Single/Double):</strong> R1000</p>
+        <p><strong>Quantum:</strong> R1100</p>
+		
+		
+		 <h3 class="section-title">What we offer for these packages</h3>
+		  <ul>
+            <p>Car seat cleaning</p>
+            <p>Headliner cleaning</li>
+            <p>Polish the car</p>
+            <p>Exterior & interior cleaning</p>
+            <p>Vacuum & dust interior</p>
+            <p>Underbody pressure wash</p>
+        </ul>
+	
+	
+</section>
+
+<!-- SOFA & CARPET -->
+<section>
+    <h2 class="section-title">Sofa & Carpet Cleaning</h2>
+    <div class="single-block">
+        <p><strong>Single Sofa:</strong> R200</p>
+        <p><strong>Two-Seater:</strong> R300</p>
+        <p><strong>Three-Seater:</strong> R350</p>
+        <p><strong>Four-Seater:</strong> R400</p>
+        <p><strong>L-Shape Sofa:</strong> R500</p>
+        <hr style="margin:25px 0; border:1px solid rgba(255,255,255,0.1);">
+        <p><strong>Small Carpet:</strong> R120</p>
+        <p><strong>Medium Carpet:</strong> R170</p>
+        <p><strong>Large Carpet:</strong> R250</p>
+        <p><strong>Extra Large Carpet:</strong> R350</p>
+    </div>
+</section>
+
+<!-- DISTANCE -->
+<section>
+    <h2 class="section-title">House Call Distance Fees</h2>
+    <div class="single-block">
+        <p><strong>0km - 10km:</strong> R25</p>
+        <p><strong>10km - 20km:</strong> R50</p>
+        <p><strong>20km - 40km:</strong> R75</p>
+        <p><strong>40km - 60km:</strong> R100</p>
+        <p><strong>60km - 80km:</strong> R125</p>
+        <p><strong>80km - 100km:</strong> R150</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p><strong>Phone:</strong> +27 79 597 1891</p>
+    <p><strong>Email:</strong> SplashSparkleswash@gmail.com</p>
+    <p><strong>Location:</strong> Soshanguve 6622 Block GG, Pretoria</p>
+    <p><strong>TikTok:</strong> @splash_sparkles</p>
+</section>
+
+<footer>
+    © 2026 Splash Sparkles | All Rights Reserved
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/27795971891?text=Hello%20I%20would%20like%20to%20book%20a%20service"
+   target="_blank"
+   class="floating-whatsapp">
+   WhatsApp
+</a>
+</body>
+</html>
